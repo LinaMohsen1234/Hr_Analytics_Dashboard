@@ -1,362 +1,194 @@
-HR Analytics Dashboard
+# HR Analytics Dashboard
 
+**Solutions by STC – Workforce Insights**
 
+---
 
-Solutions by STC – Workforce Insights
+## 📌 Project Overview
 
+The **HR Analytics Dashboard** is designed to help HR teams, managers, and decision-makers understand workforce data quickly and clearly.
 
+Instead of working with large spreadsheets or raw datasets, the dashboard transforms employee data into **clear metrics and visual insights**, all presented on a **single, easy-to-read interface**.
 
-Project Overview
+The dashboard answers key HR questions related to **employee count, attrition, performance, income, and tenure**, enabling faster and more informed decision-making.
 
+---
 
+## 🎯 Why This Dashboard Matters
 
-This project is an HR Analytics Dashboard designed to help HR teams, managers, and decision-makers understand workforce data at a glance.
+HR departments often work with complex and large datasets. This dashboard simplifies that process by:
 
+* Converting raw employee data into **meaningful insights**
+* Highlighting potential **risk areas**, such as high attrition
+* Supporting **strategic HR decision-making**
+* Saving time by presenting everything in **one unified view**
 
+The dashboard is intentionally designed to be understandable for **non-technical users**, including managers and executives.
 
-Instead of working with large spreadsheets or raw datasets, the dashboard transforms employee data into clear numbers and visual insights, all displayed on one easy-to-read page.
+---
 
+## 📊 What Does the Dashboard Show?
 
+### 1. Executive Overview
 
-The dashboard answers key HR questions related to employee count, attrition, performance, income, and tenure, enabling faster and more informed decisions.
+A high-level snapshot of workforce health, including:
 
+* Total number of employees
+* Attrition rate
+* Average monthly income
+* Average performance rating
 
+This section allows leadership to quickly assess the overall state of the organization.
 
-Why This Dashboard Matters
+---
 
+### 2. Workforce and Attrition Insights
 
+Visual analytics showing:
 
-HR departments often deal with complex and large datasets. This dashboard simplifies that process by:
+* Employee distribution across departments
+* Attrition risk by department
+* Performance rating distribution
 
+These visuals help identify patterns, trends, and potential issues without deep technical analysis.
 
+---
 
-Turning raw employee data into meaningful insights
+### 3. Compensation and Workforce Trends
 
+Long-term workforce insights, including:
 
+* Income distribution across departments
+* Employee tenure trends
 
-Highlighting potential risk areas, such as high attrition
+These insights support understanding of **salary structures** and **employee retention behavior**.
 
+---
 
+## 🔧 Data Interaction Features
 
-Supporting strategic HR decision-making
+The dashboard supports basic HR operations directly from the interface:
 
+### Add a New Employee
 
+* HR staff can add new employee records through the dashboard.
 
-Saving time by presenting everything in one unified view
+### Update Employee Income
 
+* HR staff can update the salary of existing employees.
 
+All changes are:
 
-The dashboard is intentionally designed to be understandable for non-technical users, including managers and executives.
+* Saved permanently
+* Reflected immediately in the dashboard
 
+---
 
+## 💾 Data Storage
 
-What Does the Dashboard Show?
+Employee data is stored in a **local database file**, ensuring that:
 
-1\. Executive Overview
+* Data persists after the application is closed
+* Newly added employees remain saved
+* Salary updates are preserved
 
+Each time the dashboard runs, it loads the **most up-to-date data** from the database.
 
+---
 
-The top section provides a quick snapshot of workforce health, including:
-
-
-
-Total number of employees
-
-
-
-Attrition rate
-
-
-
-Average monthly income
-
-
-
-Average performance rating
-
-
-
-This section allows leaders to quickly assess the overall state of the organization.
-
-
-
-2\. Workforce and Attrition Insights
-
-
-
-This section uses visual charts to show:
-
-
-
-Employee distribution across departments
-
-
-
-Attrition risk by department
-
-
-
-Performance rating distribution
-
-
-
-These visuals help decision-makers identify patterns, trends, and potential issues without needing detailed analysis.
-
-
-
-3\. Compensation and Workforce Trends
-
-
-
-This section focuses on longer-term workforce insights, including:
-
-
-
-Income distribution across departments
-
-
-
-Employee tenure trends
-
-
-
-These insights support understanding of salary structures and employee retention behavior.
-
-
-
-Can HR Teams Interact with the Data?
-
-
-
-Yes. The dashboard supports basic HR operations directly from the interface.
-
-
-
-Add a New Employee
-
-
-
-HR staff can add a new employee record through the dashboard.
-
-
-
-Update Employee Income
-
-
-
-HR staff can update the salary of an existing employee.
-
-
-
-All updates are saved permanently and reflected immediately in the dashboard.
-
-
-
-Where Is the Data Stored?
-
-
-
-Employee data is stored in a local database file.
-
-
-
-This ensures that:
-
-
-
-Data persists after the application is closed
-
-
-
-Newly added employees remain saved
-
-
-
-Salary updates are preserved
-
-
-
-Each time the dashboard runs, it loads the most up-to-date data from the database.
-
-
-
-Who Is This Dashboard For?
-
-
+## 👥 Target Users
 
 This dashboard is suitable for:
 
+* HR teams
+* Department managers
+* Business stakeholders
+* Executives seeking high-level workforce insights
 
+It is built for **clarity, speed, and practical use**.
 
-HR teams
+---
 
-
-
-Department managers
-
-
-
-Business stakeholders
-
-
-
-Executives seeking high-level workforce insights
-
-
-
-It is built for clarity, speed, and practical use.
-
-
-
-Design Approach
-
-
+## 🎨 Design Approach
 
 The dashboard follows professional business and analytics design standards:
 
+* One-page layout for clear visibility
+* Soft background colors with white content sections
+* Clean, minimal visuals focused on insight rather than complexity
+* Color palette aligned with **Solutions by STC** branding
 
+**Design goal:** clarity over complexity.
 
-One-page layout for clear visibility
+---
 
+## 🧱 Project Structure
 
+The project consists of two main components:
 
-Soft background colors with white content sections
+### 1. Data Analysis Notebook
 
+* Jupyter Notebook for data exploration, cleaning, and analysis.
 
+### 2. Dashboard Application
 
-Clean, minimal visuals focused on insight rather than complexity
+* Python application that displays the interactive dashboard and visualizations.
 
+---
 
+## 🛠️ Technical Information
 
-Color palette aligned with Solutions by STC branding
+### Languages
 
+* Python
+* SQL
 
+### Tools & Technologies
 
-The design goal is clarity over complexity.
+* Data analysis and processing
+* Local database storage
+* Interactive web-based dashboard (Streamlit)
 
+---
 
+## ▶️ How to Run the Dashboard
 
-Project Structure
+1. Activate the Python environment
+2. Navigate to the project folder
+3. Run the application:
 
-
-
-This project consists of two main components:
-
-
-
-Data Analysis Notebook
-
-
-
-A Jupyter Notebook used for data exploration, cleaning, and analysis.
-
-
-
-Dashboard Application
-
-
-
-A Python application that displays the interactive dashboard and visuals.
-
-
-
-Technical Information (Reference)
-
-Languages Used
-
-
-
-Python
-
-
-
-SQL
-
-
-
-Tools and Technologies
-
-
-
-Data analysis and processing
-
-
-
-Local database storage
-
-
-
-Interactive web-based dashboard
-
-
-
-How to Run the Dashboard
-
-
-
-Activate the Python environment
-
-
-
-Navigate to the project folder
-
-
-
-Run the application using:
-
-
-
+```bash
 streamlit run app.py
+```
 
+4. Open the dashboard in your browser:
 
-
-
-
-Open the dashboard in your browser at:
-
-
-
+```
 http://localhost:8501
+```
 
+---
 
+## ✅ Summary
 
-Summary
+The **HR Analytics Dashboard** converts employee data into **actionable insights**.
 
+It helps organizations to:
 
+* Understand their workforce clearly
+* Identify potential risks early
+* Support better HR and business decisions
+* Access all key workforce information in one place
 
-This HR Analytics Dashboard converts employee data into actionable insights.
+---
 
+## 👩‍💻 Author
 
+**Name:** Lina Alnasi
+**Role:** Software Engineering Student (Artificial Intelligence & Data Science)
+**Project Type:** HR Data Analytics Dashboard
+**Purpose:** Academic and practical data analytics project
 
-It helps organizations:
+---
 
-
-
-Understand their workforce clearly
-
-
-
-Identify potential risks early
-
-
-
-Support better HR and business decisions
-
-
-
-Access all key information in one place
-
-
-
-Author
-
-
-
-Name: Lina Alnasi
-
-Role: Software Engineering Student (Artificial Intelligence \& Data Science)
-
-Project Type: HR Data Analytics Dashboard
-
-Purpose: Academic and practical data analytics project
-
+📌 *This project demonstrates practical HR analytics, dashboard design, and data-driven decision support aligned with real-world business needs.*
