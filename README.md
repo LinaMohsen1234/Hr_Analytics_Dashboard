@@ -151,17 +151,23 @@ The project consists of two main components:
 
 ---
 
+
+
 ##  How to Run the Dashboard
 
 1. Activate the Python environment
 2. Navigate to the project folder
-3. Run the application:
+3. Install required dependencies
+ ```bash
+   pip install -r requirements.txt
+  ```
+5. Run the application:
 
 ```bash
 streamlit run app.py
 ```
 
-4. Open the dashboard in your browser:
+6. Open the dashboard in your browser:
 
 ```
 http://localhost:8501
