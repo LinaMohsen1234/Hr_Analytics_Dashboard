@@ -161,13 +161,13 @@ The project consists of two main components:
  ```bash
    pip install -r requirements.txt
   ```
-5. Run the application:
+4. Run the application:
 
 ```bash
 streamlit run app.py
 ```
 
-6. Open the dashboard in your browser:
+5. Open the dashboard in your browser:
 
 ```
 http://localhost:8501
