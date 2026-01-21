@@ -197,4 +197,4 @@ It helps organizations to:
 
 ---
 
- *This project demonstrates practical HR analytics, dashboard design, and data-driven decision support aligned with real-world business needs.*
+
