@@ -1,6 +1,6 @@
 # HR Analytics Dashboard
 
-**Solutions by STC – Workforce Insights**
+
 
 ---
 
