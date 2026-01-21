@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **HR Analytics Dashboard** is designed to help HR teams, managers, and decision-makers understand workforce data quickly and clearly.
 
@@ -14,7 +14,7 @@ The dashboard answers key HR questions related to **employee count, attrition, p
 
 ---
 
-## 🎯 Why This Dashboard Matters
+##  Why This Dashboard Matters
 
 HR departments often work with complex and large datasets. This dashboard simplifies that process by:
 
@@ -27,7 +27,7 @@ The dashboard is intentionally designed to be understandable for **non-technical
 
 ---
 
-## 📊 What Does the Dashboard Show?
+##  What Does the Dashboard Show?
 
 ### 1. Executive Overview
 
@@ -65,7 +65,7 @@ These insights support understanding of **salary structures** and **employee ret
 
 ---
 
-## 🔧 Data Interaction Features
+##  Data Interaction Features
 
 The dashboard supports basic HR operations directly from the interface:
 
@@ -84,7 +84,7 @@ All changes are:
 
 ---
 
-## 💾 Data Storage
+##  Data Storage
 
 Employee data is stored in a **local database file**, ensuring that:
 
@@ -96,7 +96,7 @@ Each time the dashboard runs, it loads the **most up-to-date data** from the dat
 
 ---
 
-## 👥 Target Users
+##  Target Users
 
 This dashboard is suitable for:
 
@@ -109,7 +109,7 @@ It is built for **clarity, speed, and practical use**.
 
 ---
 
-## 🎨 Design Approach
+##  Design Approach
 
 The dashboard follows professional business and analytics design standards:
 
@@ -122,7 +122,7 @@ The dashboard follows professional business and analytics design standards:
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 The project consists of two main components:
 
@@ -136,7 +136,7 @@ The project consists of two main components:
 
 ---
 
-## 🛠️ Technical Information
+##  Technical Information
 
 ### Languages
 
@@ -151,7 +151,7 @@ The project consists of two main components:
 
 ---
 
-## ▶️ How to Run the Dashboard
+##  How to Run the Dashboard
 
 1. Activate the Python environment
 2. Navigate to the project folder
@@ -169,7 +169,7 @@ http://localhost:8501
 
 ---
 
-## ✅ Summary
+##  Summary
 
 The **HR Analytics Dashboard** converts employee data into **actionable insights**.
 
@@ -182,7 +182,7 @@ It helps organizations to:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Name:** Lina Alnasi
 **Role:** Software Engineering Student (Artificial Intelligence & Data Science)
@@ -191,4 +191,4 @@ It helps organizations to:
 
 ---
 
-📌 *This project demonstrates practical HR analytics, dashboard design, and data-driven decision support aligned with real-world business needs.*
+ *This project demonstrates practical HR analytics, dashboard design, and data-driven decision support aligned with real-world business needs.*
