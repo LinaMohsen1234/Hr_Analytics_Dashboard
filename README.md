@@ -46,6 +46,20 @@ Trends related to employee income and tenure, supporting analysis of retention a
 
 ---
 
+## Dashboard Architecture
+
+```mermaid
+flowchart LR
+    D[HR Dataset / Database]
+    A[Data Processing Layer]
+    S[Streamlit Dashboard]
+    U[HR Users & Managers]
+
+    D --> A
+    A --> S
+    S --> U
+```
+
 ## Data Interaction Features
 
 The dashboard supports basic HR operations directly from the interface:
