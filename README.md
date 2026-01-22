@@ -29,37 +29,20 @@ The dashboard is intentionally designed to be accessible for **non-technical use
 
 ### Executive Overview
 
-A high-level snapshot of workforce health, including:
-
-- Total number of employees
-- Overall attrition rate
-- Average monthly income
-- Average performance rating
-
-This section allows leadership to quickly assess the overall state of the organization.
+A quick snapshot of overall workforce health, including employee count, attrition rate, average income, and performance.
 
 ---
 
 ### Workforce and Attrition Insights
 
-Visual analytics that highlight:
+Visual insights showing how employees are distributed across departments, attrition patterns, and performance ratings.
 
-- Employee distribution across departments
-- Attrition trends by department
-- Performance rating distribution
-
-These insights help identify patterns and potential issues without requiring technical analysis.
 
 ---
 
 ### Compensation and Workforce Trends
 
-Long-term workforce indicators, including:
-
-- Income distribution across departments
-- Employee tenure trends
-
-These views support better understanding of **salary structures** and **employee retention behavior**.
+Trends related to employee income and tenure, supporting analysis of retention and compensation structure.
 
 ---
 
